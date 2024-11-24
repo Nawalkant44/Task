@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { addEmployee } from "../services/employeeService";
 
 const AddEmployee = ({ onClose, onAdd }) => {
-  const designations = ["Developer", "Designer", "Tester", "HR"];
-  const courses = ["BTECH", "MTECH"];
+  const designations = ["Developer", "Manger","Designer", "Tester", "HR"];
+  const courses = ["BCA", "MCA","BSC"];
 
   const [formData, setFormData] = useState({
     name: "",
