@@ -1,0 +1,29 @@
+# Backend specific files and folders
+.env
+.env.local
+.env.*.local
+*.env
+*.env.*
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Build directories
+build/
+tmp/
+temp/
+cache/
+
+# Node modules
+node_modules/
